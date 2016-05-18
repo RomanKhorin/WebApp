@@ -16,7 +16,6 @@
         <div>
             <asp:HyperLink NavigateUrl="~/User.aspx" Text="Войти" ID="HyperLink1" runat="server">Войти</asp:HyperLink>
             <br />
-            <br />
 
         <asp:Label ID="Label1" runat="server" Text="Введите свои данные:" Font-Bold="True" Font-Size="16pt"></asp:Label>
 

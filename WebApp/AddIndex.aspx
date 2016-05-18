@@ -18,11 +18,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:HyperLink NavigateUrl="~/MainPage.aspx" Text="Товары" ID="HyperLink3" runat="server">Товары</asp:HyperLink>
+            <asp:HyperLink NavigateUrl="~/Bag.aspx" Text="Корзина" ID="HyperLink2" runat="server">Корзина</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;
+        <asp:HyperLink NavigateUrl="~/MainPage.aspx" Text="Товары" ID="HyperLink3" runat="server">Товары</asp:HyperLink>
             <br />
-
             <asp:Label ID="Label1" runat="server" Text="Введите данные товара:"></asp:Label>
-
             <br />
             <br />
             <table style="width: 25%;">

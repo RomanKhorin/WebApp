@@ -11,7 +11,7 @@
         <div>
             <asp:HyperLink NavigateUrl="~/User.aspx" Text="Войти" ID="HyperLink1" runat="server">Войти</asp:HyperLink>
             &nbsp;&nbsp;&nbsp;
-        <asp:HyperLink NavigateUrl="~/Bag.aspx" Text="Корзина" ID="HyperLink2" runat="server">Корзина</asp:HyperLink>
+            <asp:HyperLink NavigateUrl="~/Bag.aspx" Text="Корзина" ID="HyperLink2" runat="server">Корзина</asp:HyperLink>
             &nbsp;&nbsp;&nbsp;
         <asp:HyperLink NavigateUrl="~/MainPage.aspx" Text="Товары" ID="HyperLink3" runat="server">Товары</asp:HyperLink>
             <br />

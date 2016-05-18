@@ -25,6 +25,7 @@ namespace WebApp
                 var query = (from st in dbContext.Stocks
                              where st.Item_id == useritem
                              select st.Quantity).First();
+
                 Stock stock = dbContext.Stocks.SingleOrDefault(x => x.Item_id == useritem);
                 stock.Quantity = Convert.ToInt32(query) + userquantity;
                 dbContext.SubmitChanges();

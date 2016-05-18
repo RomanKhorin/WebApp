@@ -14,7 +14,8 @@ namespace WebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            HttpCookie cookie = new HttpCookie("UserInfo");
+            cookie = null;
         }
 
         private bool AuthenticateUser(string username, string password)
